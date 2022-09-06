@@ -34,6 +34,7 @@ export default function SignIn() {
   const emailRef = useRef()
   const passwordRef = useRef()
   const passwordConfirmRef = useRef()
+  const { signup } = useAuth()
   
   const handleSubmit = (event) => {
     event.preventDefault();
